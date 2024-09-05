@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1e28;
+    color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    /* Сделаем контейнер уже */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Хедер */
+header {
+    background-color: #27313e;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Основной контент */
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.meta {
+    color: #888;
+    font-size: 14px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Футер */
+footer {
+    background-color: #27313e;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
